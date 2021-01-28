@@ -1,0 +1,15 @@
+.container {
+	display: flex;
+	justify-content: center;
+	width: 75%;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+@media (max-width: 770px) {
+	.container {
+		width: 100%;
+	}
+}
